@@ -1,0 +1,105 @@
+.container {
+    background: #fff;
+    width: 100%;
+    min-height: 700px;
+    /* margin: auto; */
+    /* padding: 50px; */
+}
+
+  /* IMG */
+img {
+    float: left;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+   
+    /* header */
+header {
+    min-height: 100px;
+    width: 100%;
+    background: #fff;
+    text-align: center;
+}
+
+header table {
+    float: right;
+    padding: 5px 10px;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
+      
+    /* NAVs*/
+Nav {
+    width: 100%;
+    height: 40px;
+    background: #fff;
+    color: #fff;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    width: 100%;
+}
+
+nav ul li {
+    width: 14.28%;
+    background: #4e4b46;
+    color: #fff;
+    float: left;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul li a {
+    text-decoration: none;
+    border-right: 1px solid #fff;
+    text-align: center;
+    padding: 10px 50px;
+    text-transform: capitalize;
+    color: #ccc;
+}
+
+nav ul li :last-child a {
+    border-right: 0;
+}
+
+  /* Center */
+.center {
+    width: 100%;
+    min-height: 700px;
+    background: #fff;
+    text-align: center;
+}  
+
+.center-left {
+    float: left;
+    width: 30%;
+    min-height: 700px;
+    background: #fff;
+}
+
+.center-right {
+    float: right;
+    width: 70%;
+    min-height: 700px;
+    background: #fff;
+}
+
+.center-right h2 {
+   float: left;
+   padding-left: 40px;
+}
+
+     /* footer */
+footer {
+    min-height: 200px;
+    width: 100%;
+    background: #4e4b46;
+    text-align: center;
+    color: #fff;
+    padding-top: 80px;
+    font-weight: 600;
+}
+
